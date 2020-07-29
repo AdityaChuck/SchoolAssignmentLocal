@@ -1,0 +1,91 @@
+Wed Jul 29 2020 - BadRequestError: request aborted
+    at IncomingMessage.onAborted (C:\Users\hp\Pictures\student-result-board\node_modules\raw-body\index.js:231:10)
+    at IncomingMessage.emit (events.js:223:5)
+    at abortIncoming (_http_server.js:507:9)
+    at socketOnClose (_http_server.js:500:3)
+    at Socket.emit (events.js:228:7)
+    at TCP.<anonymous> (net.js:664:12)
+Wed Jul 29 2020 - Error: Some error occured
+    at C:\Users\hp\Pictures\student-result-board\service\test.js:11:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - Error: Some error occured
+    at C:\Users\hp\Pictures\student-result-board\service\test.js:11:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - Error: Some error occured
+    at C:\Users\hp\Pictures\student-result-board\service\test.js:12:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - Error: Some error occured
+    at C:\Users\hp\Pictures\student-result-board\service\test.js:12:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - Error: Some error occured
+    at C:\Users\hp\Pictures\student-result-board\service\test.js:12:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - ValidationError: Results validation failed: rollNumber: Cast to Number failed for value "KV2017-5A2" at path "rollNumber"
+    at model.Document.invalidate (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\document.js:2579:32)
+    at model.$set (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\document.js:1251:12)
+    at model._handleIndex (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\document.js:980:14)
+    at model.$set (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\document.js:921:22)
+    at model.Document (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\document.js:140:12)
+    at model.Model (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\model.js:4667:15)
+    at C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\model.js:3036:22
+    at C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\model.js:3072:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\model.js:3071:15
+    at C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\model.js:3006:10)
+    at C:\Users\hp\Pictures\student-result-board\model\test.js:48:27
+Wed Jul 29 2020 - CastError: Cast to ObjectId failed for value "0" at path "_id" for model "Admissions"
+    at model.Query.exec (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\hp\Pictures\student-result-board\model\test.js:22:86
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - CastError: Cast to ObjectId failed for value "0" at path "_id" for model "Admissions"
+    at model.Query.exec (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\hp\Pictures\student-result-board\model\test.js:22:86
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - CastError: Cast to ObjectId failed for value "0" at path "_id" for model "Admissions"
+    at model.Query.exec (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\hp\Pictures\student-result-board\model\test.js:22:86
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - CastError: Cast to ObjectId failed for value "0" at path "_id" for model "Admissions"
+    at model.Query.exec (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\hp\Pictures\student-result-board\model\test.js:22:86
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - CastError: Cast to ObjectId failed for value "0" at path "_id" for model "Admissions"
+    at model.Query.exec (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\hp\Pictures\student-result-board\model\test.js:22:86
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - CastError: Cast to ObjectId failed for value "0" at path "_id" for model "Admissions"
+    at model.Query.exec (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\hp\Pictures\student-result-board\model\test.js:22:86
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - CastError: Cast to ObjectId failed for value "0" at path "_id" for model "Admissions"
+    at model.Query.exec (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\hp\Pictures\student-result-board\model\test.js:22:86
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - CastError: Cast to ObjectId failed for value "0" at path "_id" for model "Admissions"
+    at model.Query.exec (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\hp\Pictures\student-result-board\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\hp\Pictures\student-result-board\model\test.js:22:57
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - Error: Some error occured
+    at C:\Users\hp\Pictures\student-result-board\service\test.js:25:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - Error: Some error occured
+    at C:\Users\hp\Pictures\student-result-board\service\test.js:25:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - Error: Some error occured
+    at C:\Users\hp\Pictures\student-result-board\service\test.js:25:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Wed Jul 29 2020 - Error: Some error occured
+    at C:\Users\hp\Pictures\student-result-board\service\test.js:25:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
