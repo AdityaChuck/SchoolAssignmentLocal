@@ -172,7 +172,7 @@ const validate = (name,value) => {
 //----------------------------------------------------formSubmission-----------------------------------------------//
 const handleSubmit = (e) => {
     e.preventDefault()
-    let obj = {name:form.name,marks:{Maths:form.Maths, English:form.English, Science:form.English},rollNumber:form.rollNumber}
+    let obj = {name:form.name,marks:{Maths:form.Maths, English:form.English, Science:form.Science},rollNumber:form.rollNumber}
     axios.post('http://localhost:3001/createResult',(obj)).then(response => {
         if(response.data.message){
             setSuccessMessage(response.data.message)
